@@ -1,0 +1,24 @@
+.ToursImage{
+    width:400px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+.Tours{
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(230, 181, 117);
+    opacity: 0.8;
+    width:450px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.tourClass{
+    background-image: url("https://th.bing.com/th/id/R.ba40516f84cf3a90337568b852428e7f?rik=d%2b5onu2n7wMU5Q&pid=ImgRaw&r=0");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

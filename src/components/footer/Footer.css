@@ -1,0 +1,21 @@
+.footer{
+    display: flex;
+    text-align: center;
+    border-top: 2px solid rgb(218, 101, 23);
+    color: rgb(80, 47, 3);
+    justify-content: space-between;
+    font-size:20px;
+
+}
+
+.footer img{
+    border-radius: 10px;
+    margin: 5px;
+    width:70px;
+}
+
+.footer p{
+    margin: auto 5px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
