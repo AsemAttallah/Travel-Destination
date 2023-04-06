@@ -1,27 +1,24 @@
+import Tours from "../tours/Tours";
 import Header from "../header/Header";
 import Footer from "../footer/Footer";
-import Tours from "../tours/Tours";
-
 function Home(props) {
+
+  function welcome (login){
+    console.log("welcome from home component",login)
+  }
+
   return (
     <>
       <div>
         <Header />
       </div>
-
       <div class="tourClass">
-        {
-          props.data.map(element => {
-            return (
-              <Tours TourName={element.name} TourImage={element.image} />
-            )
-          })
-        }
+      <Tours data={props.data} />
       </div>
-
       <div>
         <Footer />
-      </div>
+    </div>
+     
 
     </>
   )
