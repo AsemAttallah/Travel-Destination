@@ -2,9 +2,8 @@
     display: flex;
     text-align: center;
     border-top: 2px solid rgb(218, 101, 23);
-    color: rgb(80, 47, 3);
     justify-content: space-between;
-    font-size:20px;
+    font-size:30px;
 
 }
 

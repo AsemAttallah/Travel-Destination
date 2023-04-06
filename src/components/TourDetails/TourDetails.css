@@ -1,0 +1,19 @@
+.tourDetail{
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(230, 181, 117);
+    width:800px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.tourDetailImage{
+    width:750px;
+    height: 500px;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+button{
+    font-size :20px;
+    margin:20px;
+}

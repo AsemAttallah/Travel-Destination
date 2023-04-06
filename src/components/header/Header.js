@@ -1,7 +1,9 @@
 import './Header.css'
 function Header (){
     return(
-        <h1 class="header">Welcome to Asem's app</h1>
+        <>
+        <h1 class="header">Welcome to Asem's App</h1>
+        </>
     )
 }
 
